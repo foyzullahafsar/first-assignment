@@ -51,11 +51,23 @@ header{
     font-weight: 100;
 }
 .user{
-
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 142px 50px;
+    margin: 0px 150px 100px;
+    border-radius: 25px;
+}
+.about-users{
+    display: flex;
+    justify-content: space-around;
+}
+.user-amount{
+    font-size: 80px;
+    font-weight: bold;
 }
 .user-title{
     font-size: 38px;
     font-weight: bold;
+    text-align: center;
 }
 
 /* shear style */
@@ -68,6 +80,7 @@ header{
     padding: 15px 30px;
     border-radius: 10px;
     border: none;
+    
 }
 
 .clr-1{
