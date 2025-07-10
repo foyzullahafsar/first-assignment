@@ -4,19 +4,30 @@ header{
     height: 700px;
 }
 /* nav style */
-nav{
+.nav-banner{
     display: flex;
     align-items: center; 
     justify-content: space-between; 
     padding: 0 40px 0 40px;
+}
+.nav-action{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 40px 0 40px;
+    margin: 140px 135px;
 
 }
 .nav-log{
     font-size: 34px;
 }
+.img{
+    width: 300px;
+    border-radius: 50px;
+}
 
 /* div style */
-div{
+.action-1{
     text-align: center;
     padding: 100px 0px 150px 0px;
 }
@@ -24,6 +35,27 @@ div{
     font-size: 65px;
     font-weight: bold;
     text-align: center;
+}
+.action{
+    justify-content: center;
+    align-items: center;
+    
+}
+/* main style */
+.title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.act-dec{
+    font-size: 24px;
+    font-weight: 100;
+}
+.user{
+
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
 }
 
 /* shear style */
@@ -47,3 +79,5 @@ div{
 .clr-3{
     color: #FFFFFF;
 }
+
+
