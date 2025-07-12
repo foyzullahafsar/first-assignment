@@ -102,7 +102,8 @@ header{
     width: 365px;
 }
 .rev-info{
-   display: flex; 
+    display: flex;
+    gap: 20px;
 }
 
 .rev-title1{
@@ -121,6 +122,9 @@ header{
 
 .rev-image{
     border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
 }
 
 .rev-name{
@@ -130,6 +134,7 @@ header{
 .date{
     font-size: 16px;
     color: #B3B3B3;
+    margin-top: -10px;
 }
 /* massage */
 .massage{
