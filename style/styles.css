@@ -69,6 +69,7 @@ header{
 .user-amount{
     font-size: 80px;
     font-weight: bold;
+    margin-top: 0px;
 }
 .user-title{
     font-size: 38px;
@@ -78,6 +79,7 @@ header{
 .user-type{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+    margin-top: -80px;
 }
 /* about user review */
 
@@ -98,10 +100,9 @@ header{
     border-radius: 20px;
     height: 245px;
     width: 365px;
-
 }
 .rev-title1{
-    text-align: center;
+   text-align: center;
 }
 .rev-title{
     font-size: 24px;
@@ -113,14 +114,11 @@ header{
     color: #1E1E1E;
 }
 .rev-info{
-    display: flex;
-   
+   display: flex; 
 }
 
 .rev-image{
     border-radius: 50px;
-    gap: 0px;
-    display: flex;
 }
 
 .rev-name{
@@ -135,14 +133,20 @@ header{
 .massage{
     padding: 0px 70px;
     display: flex;
-    margin: 0px 150px 15px 150px;
+    margin: 90px 150px 20px 150px;
+    justify-content: center;
+    height: 632px;
+    width: px;
+    gap: 150px;
 }
 .massage.clm{
     gap: 20px;
+    height: 490px;
+    width: 495px;
 }
 input[type="text"] {
-    height: 65px;
-    width: 100%;
+    height: 70px;
+    width: 490px;
     border-radius: 10px;
     background-color: #f8f6f6;
     display: block;
@@ -154,8 +158,8 @@ input[type="text"] {
     gap: 10px;
 }
 input[type="email"] {
-    height: 65px;
-    width: 100%;
+    height: 70px;
+    width: 490px;
     border-radius: 10px;
     background-color: #f8f6f6;
     display: block;
@@ -167,31 +171,37 @@ input[type="email"] {
     gap: 10px;
 } 
 textarea{
-    height: 65px;
-    width: 100%;
+    height: 135px;
+    width: 490px;
     border-radius: 10px;
     background-color: #f8f6f6;
     display: block;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
-    padding: 10px 10px;
+    padding: 20px 30px;
     margin-bottom: 20px; 
     border: none; 
 }
+
 .msg-title{
 font-size: 97px;
 font-weight: bold;
 display: flex;
+height: 200px 115px 200px opx;
 }
 
-.footer{
+footer{
     text-align: center;
     width: 100%;
-    margin-bottom: 20px;
     background-color: rgb(248, 246, 246);
-    padding: 50px 50px;
     justify-items: center;
-    gap: 10px;
+    padding: 10px  50px;
+}
+.footer{
+    width: 530px;
+    height: 220px;
+    margin: 105px 405px;
+   
 }
 .f-logo{
     font-size: 100px;
@@ -200,8 +210,7 @@ display: flex;
     font-size: 16px;
     color: #8987A1; 
 }
-.f-li{
-    
+.f-li{    
     list-style: none;
     display: flex;
     gap: 20px;
