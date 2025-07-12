@@ -101,6 +101,10 @@ header{
     height: 245px;
     width: 365px;
 }
+.rev-info{
+   display: flex; 
+}
+
 .rev-title1{
    text-align: center;
 }
@@ -113,9 +117,7 @@ header{
     font-size: 16px;
     color: #1E1E1E;
 }
-.rev-info{
-   display: flex; 
-}
+
 
 .rev-image{
     border-radius: 50px;
@@ -236,9 +238,14 @@ footer{
     cursor: pointer;
     position: relative;
     z-index: 0;
+    outline: none;
     border-radius: 12px;
     font-size: 16px;
     background-color: #4E47FF;
+    box-shadow: 0 9px rgb(13, 1, 24);
+}
+.btn:hover{
+    background-color: rgb(13, 1, 24);
 }
 
 .clr-1{
